@@ -90,9 +90,9 @@ func main() {
 	bot := []*nano.Bot{}
 	if *loadconfig == "" {
 		bot = append(bot, &nano.Bot{
-			AppID:      *appid,
-			Token:      *token,
-			Secret:     *secret,
+			AppID: "102052666"      *appid,
+			Token:  sP2p1jQoKiYN9zNPDjvYUDjY6iykpS5F     *token,
+			Secret: "WxAAza0CAzhJiwvf"     *secret,
 			SuperUsers: sus,
 			Timeout:    time.Duration(*timeout) * time.Second,
 			Intents:    intent,
